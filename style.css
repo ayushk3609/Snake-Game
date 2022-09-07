@@ -1,0 +1,62 @@
+
+
+#canvas{
+    border: 10px solid rgb(51, 190, 255);
+    position: relative;
+    background-color: black;
+    margin-left: 12.5vw;
+    margin-top: 2vh;
+    
+}
+
+#score{
+    border: 10px solid black;
+    background-color: grey;
+}
+
+.mode{
+    position:absolute;
+    z-index: 2;
+    display: flex;
+    font-size: 25px;
+    font-family: monaco , monospace;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    top:40%;
+    left: 68%;
+}
+
+.reset{
+    position: absolute;
+    top:80%;
+    left: 71%;
+}
+
+#reset{
+    background:transparent;
+    font-size: 20px;
+    padding:5px;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+    
+}
+
+#reset:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: 1s;
+}
+
+
+
+#list{
+    font-size: 25px;
+    background-color: grey;
+    font-family: monaco , monospace;
+    margin-top: 15px;
+    text-align: center;
+    padding: 5px 10px;
+}
